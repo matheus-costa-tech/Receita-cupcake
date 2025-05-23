@@ -1,0 +1,77 @@
+main{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.container{
+    width: 80rem;
+    height: auto;
+    margin: 2rem;
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 1.6rem;
+}
+
+h1,
+.ingredientes,
+.preparo{
+    margin-top: 2rem;
+}
+
+/* IMAGEM */
+.imagem{
+    height: 40rem;
+    background-color: aliceblue;
+    
+}
+
+img{
+   height: 100%;
+   width: 100%;
+   display: block;
+   border: 1px solid white;
+   border-radius: 1.6rem;
+}
+
+/* TITULO */
+.titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titulo li{
+    list-style: none;
+}
+
+/* INGREDIENTES */
+.ingredientes ul{
+    padding-left: 5rem;
+    line-height: 1.6;
+}
+
+
+/* PREPARO */
+.preparo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* FOOTER */
+.rodape{
+    background-color: var(--background-color);
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--text-color-on-bg);
+}
+
+.rodape img{
+    display: block;
+    width: 1.6rem;
+}
