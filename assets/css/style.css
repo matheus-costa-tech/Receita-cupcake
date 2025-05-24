@@ -1,9 +1,14 @@
+body{
+    background-image: url(/assets/img/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 main{
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background-color);
 }
 
 .container{
@@ -62,7 +67,6 @@ img{
 
 /* FOOTER */
 .rodape{
-    background-color: var(--background-color);
     display: flex;
     padding: 3rem;
     justify-content: center;
